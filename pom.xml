@@ -1,13 +1,10 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
-                             http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0                              http://maven.apache.org/maven-v4_0_0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.techresidents.services.core.java</groupId>
     <artifactId>parent-pom</artifactId>
-    <version>0.1-SNAPSHOT</version>
+    <version>0.1.0</version>
     <packaging>pom</packaging>
 
     <name>Parent Pom</name>
@@ -30,6 +27,12 @@
 	    <url>http://nexus.dev.techresidents.com/content/repositories/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
+
+    <scm>
+        <connection>scm:git:git://dev.techresidents.com/tr/repos/techresidents/lib/java/parent-pom.git</connection>
+        <developerConnection>scm:git:git://dev.techresidents.com/tr/repos/techresidents/lib/java/parent-pom.git</developerConnection>
+        <url>scm:git:git://dev.techresidents.com/tr/repos/techresidents/lib/java/parent-pom.git</url>
+    </scm>
 
 
     <properties>
